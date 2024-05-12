@@ -1,12 +1,37 @@
 body{
-    background: #cacaee;
+    background: hwb(240 90% 9%);
 }
-h1 h3{
+h1,h3{
     text-align: center;
 }
 img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 200px;
+    width: 100px;
+}
+.main-photo{
+    display: block;
+    margin-left: auto 0%;
+    margin-right: auto 0%;
+    width: 1000px;
+}
+p{
+    text-align: center;
+}
+.text-mail{
+    text-align: center;
+}
+.email-link{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+}
+li{
+    padding: 10px;
 }
